@@ -1,8 +1,33 @@
 h1 {
 	color:#B72C80;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size:300%;
+	line-height:75%;
+	
+
 }
 
 h2 {
-	color:#5986F0
+	color:#5986F0;
+	font-family: 'Handlee', cursive;
+	line-height:50%;
 }
 
+p {
+	text-align:justify;
+	font-family: 'DM Serif Text', serif;
+	line-height:105%;
+	font-size:120%;
+}
+
+body {
+	background-color:#C4F7F0;
+}
+
+nav {
+	font-size:125%;
+}
+
+footer {
+	text-align:center;
+}
