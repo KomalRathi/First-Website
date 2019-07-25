@@ -27,8 +27,15 @@ body {
 nav {
 	font-size:125%;
 	text-align:center;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 footer {
 	text-align:center;
+}
+
+header {
+	border:solid 15px #F3CFFE;
+	background-color: #F3CFFE;
+
 }
