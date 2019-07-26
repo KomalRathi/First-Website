@@ -1,41 +1,82 @@
 h1 {
-	color:#B72C80;
-	font-family: 'Baloo Bhaina', cursive;
+	color:#FE5A14 ;
+	font-family: 'Patua One', cursive;
 	font-size:300%;
 	line-height:75%;
-	
-
 }
 
 h2 {
 	color:#5986F0;
-	font-family: 'Handlee', cursive;
+	font-family: 'Kalam', cursive;
 	line-height:50%;
+	font-size: 180%;
 }
 
 p {
 	text-align:justify;
 	font-family: 'DM Serif Text', serif;
-	line-height:105%;
-	font-size:120%;
+	line-height:110%;
+	font-size:130%;
 }
 
 body {
-	background-color:#C4F7F0;
+	background-color:#B5F0FE;
 }
 
 nav {
 	font-size:125%;
-	text-align:center;
+	text-align: right;
 	font-family: 'Rajdhani', sans-serif;
+	color:#FEFEFE;
 }
 
 footer {
 	text-align:center;
+	border:solid 1px #FE0088;
+	background-color: #FE0088;
+	color:#FEFEFE;
+
 }
 
 header {
-	border:solid 15px #F3CFFE;
-	background-color: #F3CFFE;
-	
+	border:solid 15px #FE0088;
+	background-color: #FE0088 ;
+	color:#FEFEFE;
+}
+
+div {
+	display:inline-block;
+	text-align:left;
+	float: left;
+	font-family: 'Donegal One', serif;
+	text-transform: uppercase;
+	font-size: 125%;
+
+}
+
+figure {
+	display: block;
+	text-align: center;
+}
+
+a.nav {
+	border-bottom: 3px solid transparent;
+}
+
+a:hover {
+	font-size:135%;
+	border-bottom: 3px solid #FEFEFE
+}
+
+a.nav:active {
+	border-bottom: 3px solid #FEFEFE
+}
+
+a.nav:link {
+	color:#FEFEFE;
+	text-decoration: none;
+}
+
+a.nav:visited {
+	color:#FEFEFE;
 }
