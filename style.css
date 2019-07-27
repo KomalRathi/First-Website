@@ -61,6 +61,7 @@ figure {
 
 a.nav {
 	border-bottom: 3px solid transparent;
+	transition: 0.15s 
 }
 
 a.nav:hover {
@@ -79,4 +80,8 @@ a.nav:link {
 
 a.nav:visited {
 	color:#FEFEFE;
+}
+
+a.github:hover {
+	font-size:135%;
 }
