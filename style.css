@@ -62,30 +62,29 @@ figure {
 	text-align: center;
 }
 
-a.nav {
+.nav {
 	border-bottom: 3px solid transparent;
 	transition: 0.15s 
 }
 
-a.nav:hover {
+.nav:hover {
 	font-size:135%;
+}
+
+.nav:active {
 	border-bottom: 3px solid #FEFEFE
 }
 
-a.nav:active {
-	border-bottom: 3px solid #FEFEFE
-}
-
-a.nav:link {
+.nav:link {
 	color:#FEFEFE;
 	text-decoration: none;
 }
 
-a.nav:visited {
+.nav:visited {
 	color:#FEFEFE;
 }
 
-a.github:hover {
+.github:hover {
 	font-size:135%;
 }
 
@@ -96,11 +95,27 @@ ul {
 	line-height:110%;
 }
 
-a.nav:focus {
+.nav:focus {
 	font-size:135%;
 	border-bottom: 3px solid #FEFEFE
 }
 
-a.github:focus {
+.github:focus {
 	font-size:135%;
+}
+
+#home {
+	border-bottom:solid 3px #FEFEFE;
+}
+
+#secondpage {
+	border-bottom:solid 3px #FEFEFE;
+}
+
+#thirdpage {
+	border-bottom:solid 3px #FEFEFE;
+}
+
+#fourthpage {
+	border-bottom:solid 3px #FEFEFE;
 }
