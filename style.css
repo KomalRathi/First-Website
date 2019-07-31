@@ -88,6 +88,17 @@ figure {
 	color:#FEFEFE;
 }
 
+.github {
+	display: inline-block;
+	margin:1%;
+	border:5px solid #FEFEFE;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	-o-border-radius:100%;
+	padding:0;
+	background:#FEFEFE;
+}
+
 .github:hover {
 	font-size:135%;
 }
