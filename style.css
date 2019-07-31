@@ -11,7 +11,7 @@ h2 {
 	font-family: 'Kalam', cursive;
 	line-height:50%;
 	font-size: 180%;
-	margin:1%;
+	margin:3%;
 }
 
 p {
@@ -41,13 +41,14 @@ footer {
 	background-color: #FE0088;
 	color:#FEFEFE;
 	padding:3px;
-
+	clear:both;
 }
 
 header {
 	border:solid 15px #FE0088;
 	background-color: #FE0088 ;
 	color:#FEFEFE;
+	clear:both;
 }
 
 div {
@@ -133,4 +134,12 @@ ul {
 
 #fourthpage {
 	border-bottom:solid 3px #FEFEFE;
+}
+
+.third {
+	width:30%;
+	margin-right:2%;
+	display:inline-block;
+	float:left;
+	text-align: center;
 }
