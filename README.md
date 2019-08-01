@@ -1,1 +1,1 @@
-This is my first website. I am learning HTML and CSS and this is an example of my work. 
+This is my first website. I am learning HTML, CSS and JavaScript and this is an example of my work. 
