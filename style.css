@@ -68,12 +68,15 @@ figure {
 }
 
 .nav {
+	opacity: 0.6;
 	border-bottom: 3px solid transparent;
-	transition: 0.15s 
+	transition: 0.15s
 }
 
 .nav:hover {
+	opacity:1;
 	font-size:135%;
+	color:#FEFEFE;
 }
 
 .nav:active {
@@ -90,6 +93,7 @@ figure {
 }
 
 .github {
+	opacity:0.6;
 	display: inline-block;
 	margin:1%;
 	border:5px solid #FEFEFE;
@@ -102,6 +106,7 @@ figure {
 
 .github:hover {
 	font-size:135%;
+	opacity:1;
 }
 
 ul {
@@ -113,26 +118,32 @@ ul {
 
 .nav:focus {
 	font-size:135%;
+	opacity: 1;
 	border-bottom: 3px solid #FEFEFE
 }
 
 .github:focus {
+	opacity: 1;
 	font-size:135%;
 }
 
 #home {
+	opacity:1;
 	border-bottom:solid 3px #FEFEFE;
 }
 
 #secondpage {
+	opacity:1;
 	border-bottom:solid 3px #FEFEFE;
 }
 
 #thirdpage {
+	opacity:1;
 	border-bottom:solid 3px #FEFEFE;
 }
 
 #fourthpage {
+	opacity:1;
 	border-bottom:solid 3px #FEFEFE;
 }
 
