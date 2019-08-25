@@ -37,15 +37,15 @@ nav {
 
 footer {
 	text-align:center;
-	border:solid 1px #FE0088;
+	border:solid 0.15em #FE0088;
 	background-color: #FE0088;
 	color:#FEFEFE;
-	padding:3px;
+	padding:0.2em;
 	clear:both;
 }
 
 header {
-	border:solid 15px #FE0088;
+	border:solid 1em #FE0088;
 	background-color: #FE0088 ;
 	color:#FEFEFE;
 	clear:both;
@@ -76,7 +76,7 @@ img {
 .nav {
 	opacity: 0.6;
 	border-bottom: 3px solid transparent;
-	transition: 0.15s
+	transition: 0.3s
 }
 
 .nav:hover {
@@ -86,7 +86,7 @@ img {
 }
 
 .nav:active {
-	border-bottom: 3px solid #FEFEFE
+	border-bottom: 0.15em solid #FEFEFE
 }
 
 .nav:link {
@@ -102,7 +102,7 @@ img {
 	opacity:0.6;
 	display: inline-block;
 	margin:1%;
-	border:5px solid #FEFEFE;
+	border:0.2em solid #FEFEFE;
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
 	-o-border-radius:100%;
@@ -125,7 +125,7 @@ ul {
 .nav:focus {
 	font-size:135%;
 	opacity: 1;
-	border-bottom: 3px solid #FEFEFE
+	border-bottom: 0.2em solid #FEFEFE
 }
 
 .github:focus {
@@ -135,27 +135,27 @@ ul {
 
 #home {
 	opacity:1;
-	border-bottom:solid 3px #FEFEFE;
+	border-bottom:solid 0.15em #FEFEFE;
 }
 
 #secondpage {
 	opacity:1;
-	border-bottom:solid 3px #FEFEFE;
+	border-bottom:solid 0.15em #FEFEFE;
 }
 
 #thirdpage {
 	opacity:1;
-	border-bottom:solid 3px #FEFEFE;
+	border-bottom:solid 0.15em #FEFEFE;
 }
 
 #fourthpage {
 	opacity:1;
-	border-bottom:solid 3px #FEFEFE;
+	border-bottom:solid 0.15em #FEFEFE;
 }
 
 #fifthpage {
 	opacity:1;
-	border-bottom:solid 3px #FEFEFE;
+	border-bottom:solid 0.15em #FEFEFE;
 }
 
 .third {
@@ -165,3 +165,34 @@ ul {
 	float:left;
 	text-align: center;
 }
+
+.credentials {
+	display:block;
+	text-align: center;
+	border:solid;
+	border-width: 0.25em;
+	padding:1em;
+	margin:2em;
+}
+
+
+.container {
+	display:flex;
+	flex-direction:row;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+
+@media all and (max-width: 800px) {
+  .container {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .container {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  	}
+  }
