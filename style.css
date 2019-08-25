@@ -18,7 +18,7 @@ p {
 	text-align:justify;
 	font-family: 'DM Serif Text', serif;
 	line-height:120%;
-	font-size:130%;
+	font-size:1.4em;
 	margin-left:1%;
 	margin-right:1%;
 	margin:1.5%;
@@ -169,10 +169,14 @@ ul {
 .credentials {
 	display:block;
 	text-align: center;
-	border:solid;
+	border:solid transparent;
 	border-width: 0.25em;
 	padding:1em;
 	margin:2em;
+	background-color: #FEB4B4;
+	-webkit-border-radius:5em;
+	-moz-border-radius:5em;
+	-o-border-radius:5em;
 }
 
 
