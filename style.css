@@ -1,7 +1,6 @@
 h1 {
 	color:#185a9d;
-	font-family: 
-	'Abril Fatface', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size:300%;
 	line-height:100%;
 	margin: 1%;
@@ -17,7 +16,7 @@ h2 {
 
 p {
 	text-align:justify;
-	font-family: 'Prata', serif;
+	font-family: 'Catamaran', sans-serif;
 	line-height:1.3em;
 	font-size:130%;
 	margin-left:1%;
@@ -48,7 +47,7 @@ footer {
 }
 
 
-eader {
+/* header {
 	 background: #43cea2; 
   	background: -webkit-linear-gradient(to bottom, #43cea2, #185a9d); 
   	background: linear-gradient(to bottom, #43cea2, #185a9d);
@@ -65,6 +64,7 @@ eader {
 	clear:both;
 	color:#FEFEFE;
 }
+*/
 
 .header {
 	background: #ff9966;  
@@ -141,7 +141,7 @@ img {
 }
 
 ul {
-	font-family: 'Prata', serif;
+	font-family: 'Catamaran', sans-serif;
 	font-size:120%;
 	text-align: justify;
 	line-height:110%;
