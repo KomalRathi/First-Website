@@ -10,4 +10,3 @@ welcomeMsg(x);
 //function welcomeMsg (msg){
 	//alert(msg);}
 
-
