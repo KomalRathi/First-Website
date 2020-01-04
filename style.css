@@ -25,68 +25,61 @@ p {
 }
 
 body {
-	 background-color: #FEF0E6;
+	 background-image: url("contemporary_china.png");
+
 }
 
 nav {
-	font-size:125%;
+	font-size:140%;
 	text-align: right;
 	font-family: 'Rajdhani', sans-serif;
 	color:#FEFEFE;
 }
 
-footer {
+.footer {
 	text-align:center;
 	border-style: solid;
 	background: #ff9966;  
 	background: -webkit-linear-gradient(to top, #ff5e62, #ff9966);  
 	background: linear-gradient(to top, #ff5e62, #ff9966); 
-	padding:0.6em;
+	padding:0.7em;
 	clear: both;
 	color: #FEFEFE;
 }
 
-
-/*
-header {
-	 background: #43cea2; 
-  	background: -webkit-linear-gradient(to bottom, #43cea2, #185a9d); 
-  	background: linear-gradient(to bottom, #43cea2, #185a9d);
-  	padding:1.3em;
- 	 clear:both;
-  	color: #FEFEFE
-}
-*/
-/*
-header {
-	background: #FDC830;  
-	background: -webkit-linear-gradient(to top, #F37335, #FDC830); 
-	background: linear-gradient(to top, #F37335, #FDC830); 
-	padding:1.3em;
-	clear:both;
-	color:#FEFEFE;
-}
-*/
 
 .header {
 	background: #ff9966;  
 	background: -webkit-linear-gradient(to top, #ff5e62, #ff9966);  
 	background: linear-gradient(to top, #ff5e62, #ff9966); 
-	padding:1.3em;
+	padding:1.6em;
 	clear: both;
 	color: #FEFEFE;
 }
 
 
-div {
+/* .header {
+	background: #36D1DC; 
+	background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC); 
+	background: linear-gradient(to bottom, #5B86E5, #36D1DC); 
+}
+*/
+
+/* .header {
+	background: #642B73; 
+	background: -webkit-linear-gradient(to bottom, #C6426E, #642B73);
+	background: linear-gradient(to bottom, #C6426E, #642B73);
+} */
+
+.name {
 	display:inline-block;
 	text-align:left;
 	float: left;
 	font-family: 'Donegal One', serif;
 	text-transform: uppercase;
-	font-size: 140%;
-
+	font-size: 170%;
 }
+
 
 figure {
 	display:block;
@@ -96,7 +89,7 @@ figure {
 }
 
 .background {
-	width:100vw;
+	width:100%; 
 	object-fit: contain;
 	overflow: hidden;
 	background-position: center;
@@ -112,11 +105,11 @@ ul {
 	line-height:110%;
 }
 
-
 .nav {
 	opacity: 0.6;
 	border-bottom: 3px solid transparent;
 	transition: 0.3s
+
 }
 
 .nav:hover {
@@ -145,7 +138,7 @@ ul {
 }
 
 .github {
-	opacity:0.6;
+	opacity:0.7;
 	display: inline-block;
 	margin:1%;
 	border:0.2em solid #FEFEFE;
@@ -156,6 +149,12 @@ ul {
 	background:#FEFEFE;
 	color:#5A007B;
 	transition:0.5s;
+	position: absolute;
+  	top: 95%;
+  	left: 57%;
+  	margin-top: -50px;
+  	margin-left: -100px;
+  	transform: translate(-50%, -50%);
 }
 
 .github:hover {
@@ -212,9 +211,9 @@ ul {
 	padding:1em;
 	margin:2em;
 	background-color: #FECFCF;
-	-webkit-border-radius:5em;
-	-moz-border-radius:5em;
-	-o-border-radius:5em;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	-o-border-radius:12px;
 	background: #ee9ca7; 
 	background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7); 
 	background: linear-gradient(to bottom, #ffdde1, #ee9ca7); 
@@ -237,13 +236,108 @@ ul {
 @media all and (max-width: 500px) {
   .container {
     -webkit-flex-flow: column wrap;
+    -moz-flex-flow:column wrap;
+    -o-flex-flow:column wrap;
     flex-flow: column wrap;
     padding: 0;
   	}
   }
 
  .school {
-  	width:12em;
+  	width:15em;
   	float:left;
-  	padding: 30px;
+  	padding: 40px;
+  	margin-right: 1em;
+  	margin-left: 0.1em;
+  	margin-bottom: 5em;
+  	display:flex;
+  	align-items: center;
+  	flex-direction: row;
   }
+
+
+  .module {
+  background: url(background2.jpg);
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; 
+  margin: 0px;
+}
+.hero-text {
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: inherit;
+  background-attachment: fixed; 
+  overflow: hidden;
+}
+.hero-text::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(3px);
+  -moz-filter:blur (3px);
+  -o-filter:blur (3px);
+  filter: blur(3px);
+}
+
+.hero-text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.25) 
+
+}
+.hero-text > h1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 375%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 22em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 280%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+    font-family: 'Berkshire Swash', cursive;
+    color: #094C47;
+}
+.anim-typewriter{
+  animation: typewriter 3.5s steps(45) 1s 1 normal both,
+             blinkTextCursor 300ms steps(20) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10.6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: #094C47 ;}
+}
