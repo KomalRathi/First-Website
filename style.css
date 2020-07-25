@@ -273,18 +273,6 @@ ul {
   	flex-direction: row;
   }
 
-
-  .module {
-  background: url(background2.JPG);
-  background-position: center;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  position:relative;
-  overflow: hidden; 
-  margin: 0px;
-}
-
 .hero-text {
   position: absolute;
   bottom: 40%;
@@ -416,4 +404,15 @@ ul {
   left: 12px;
   top: 10px;
   z-index: -2;
+}
+
+.module {
+  background: url(home_background.JPG);
+  background-position: center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+  overflow: hidden; 
+  margin: 0px;
 }
