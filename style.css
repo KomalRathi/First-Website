@@ -274,11 +274,12 @@ ul {
 
 
   .module {
-  background: url(background2.jpg);
+  background: url(background.jpg);
+  background-position: center;
   background-attachment: fixed;
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position:relative;
   overflow: hidden; 
   margin: 0px;
 }
@@ -367,7 +368,10 @@ ul {
   display:block;
 	text-align: center;
 	padding:1em;
-	margin:2em;
+	margin-top: 3em;
+	margin-right: 10em;
+	margin-left: 10em;
+	margin-bottom: 3em;
 	position: relative;
 
 	/* background: #ee9ca7; 
@@ -376,8 +380,8 @@ ul {
 	
 	background: #fceabb; 
 	background: -webkit-linear-gradient(to top, #fbdb84, #fceecd);  
-	background: linear-gradient(to top, #fbdb84, #fceecd); */
-
+	background: linear-gradient(to top, #fbdb84, #fceecd);
+	
 	/* background: #B2FEFA; 
 	background: -webkit-linear-gradient(to top, #9eedfb, #d8fefc); 
 	background: linear-gradient(to top, #9eedfb, #d8fefc); */
